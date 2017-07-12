@@ -2,19 +2,72 @@ body {
 	font-family: sans-serif;
 }
 
+header {
+	background: url("images/satellite.jpg");
+	background-size: cover;
+	background-position: bottom;
+}
+
 nav {
 	text-align: center;
+	font-weight: lighter;
+	font-family: monospace;
 	padding: 50px 0px 0px 0px;
+	color: teal;
 }
 
 h1 {
 	text-align: center;
 	padding: 0px 0px 50px 0px;
-	color: #030505;
+	color: #808000;
+	font-weight: bold;
+	letter-spacing: 2px;
+	font-size: 36px;
 }
 
-p, h2, footer {
+h2, h3 {
+	padding: 20px 100px 20px 50px;
+	font-weight: lighter; 
+	color: #B8860B;
+}
+
+li {
+	padding: 10px;
+	color: black;
+	font-family: monospace;
+	list-style-type: square;
+	list-style-position: outside;
+}
+
+strong {
+	font-weight: bold;
+}
+
+p {
+	padding: 0px 100px 40px 50px; 
+	color: black;
+	font-family: monospace;
+}
+
+img {
+	display: block;
+	width: 35%;
+	padding: 2px;
+	border: .5px solid black;
+	margin: auto;
+}
+
+footer {
 	padding: 20px 100px 20px 50px; 
+}
+
+a {
+	color: gray;
+	font-family: monospace;
+}
+
+.portfolio {
+	padding: 0px 0px 20px 0px;
 }
 
 .topline {
