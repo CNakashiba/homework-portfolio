@@ -1,3 +1,30 @@
-li {
-	display: inline-block;
+body {
+	font-family: sans-serif;
+}
+
+nav {
+	text-align: center;
+	padding: 50px 0px 0px 0px;
+}
+
+h1 {
+	text-align: center;
+	padding: 0px 0px 50px 0px;
+	color: #030505;
+}
+
+p, h2, footer {
+	padding: 20px 100px 20px 50px; 
+}
+
+.topline {
+	border: 3px solid black;
+}
+
+.profile {
+	width: 50px;
+	padding: 50px;
+	border: 2px dotted black;
+	margin: 35px 50px;
+	float: right;
 }
